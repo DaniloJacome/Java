@@ -6,6 +6,12 @@ public class TestPersona {
 		Persona p;// 1. Declaro una variable llamada p de tipo Persona
 		p = new Persona();// 2. Instanciar un objeto Persona, refereciarlo a p
 		Persona p2 = new Persona();
+		Persona p3 = new Persona("Pablo");
+		Persona p4 = new Persona("Rocio",43,1.60);
+		
+		System.out.println("nombre:" + p4.getNombre());
+		System.out.println("edad:" + p4.getEdad());
+		System.out.println("estatura:" + p4.getEstatura());
 
 		// 3. Accedo a los atributos y muestro en consola
 		System.out.println("nombre:" + p.getNombre());

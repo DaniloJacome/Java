@@ -6,6 +6,18 @@ public class TestProducto {
 		Producto productoA = new Producto();
 		Producto productoB = new Producto();
 		Producto productoC = new Producto();
+		Producto productoD = new Producto("Aspirina");
+		Producto productoE = new Producto("Omeprazol",0.77,155);
+		
+		System.out.println("nombre: "+productoD.getNombre());
+		System.out.println("precio: "+productoD.getPrecio());
+		System.out.println("stockActual: "+productoD.getStockActual());
+		System.out.println("-------------------");
+		
+		System.out.println("nombre: "+productoE.getNombre());
+		System.out.println("precio: "+productoE.getPrecio());
+		System.out.println("stockActual: "+productoE.getStockActual());
+		System.out.println("-------------------");
 		
 		productoA.setNombre("Finalin");
 		productoA.setDescripcion("Es un analgésico indicado para combatir rápidamente el dolor de cabeza, el malestar y la fiebre.");
