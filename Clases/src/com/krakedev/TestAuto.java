@@ -6,21 +6,21 @@ public class TestAuto {
 		Auto auto1 = new Auto();
 		Auto auto2= new Auto();
 
-		auto1.marca = "Tesla";
-		auto1.anio= 2022;
-		auto1.precio= 250.000;
+		auto1.setMarca("Tesla");
+		auto1.setAnio(2022);
+		auto1.setPrecio(250.000);
 		
-		auto2.marca = "Ferrari";
-		auto2.anio= 2018;
-		auto2.precio= 150.000;
+		auto2.setMarca ("Ferrari");
+		auto2.setAnio(2018);
+		auto2.setPrecio(150.000);
 		
-		System.out.println("marca: " + auto1.marca);
-		System.out.println("anio: " + auto1.anio);
-		System.out.println("precio: " + auto1.precio);
+		System.out.println("marca: " + auto1.getMarca());
+		System.out.println("anio: " + auto1.getAnio());
+		System.out.println("precio: " + auto1.getPrecio());
 		System.out.println("----------------");
-		System.out.println("marca: " + auto2.marca);
-		System.out.println("anio: " + auto2.anio);
-		System.out.println("precio: " + auto2.precio);
+		System.out.println("marca: " + auto2.getMarca());
+		System.out.println("anio: " + auto2.getAnio());
+		System.out.println("precio: " + auto2.getPrecio());
 
 	}
 
