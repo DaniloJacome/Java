@@ -1,0 +1,26 @@
+package com.cmc.repaso.test;
+import com.cmc.repaso.entidades.Producto;
+
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		  Producto producto = new Producto("Producto A", 100);
+
+	        // Mostrar el precio inicial
+	        System.out.println("Precio inicial: " + producto.getPrecio());
+
+	        // Establecer un precio negativo utilizando setPrecio
+	        producto.setPrecio(-50);
+
+	        // Mostrar el precio después de usar setPrecio
+	        System.out.println("Precio después de setPrecio: " + producto.getPrecio());
+
+	        // Calcular el precio con descuento del 10%
+	        double precioConDescuento = producto.calcularPrecioPromo(10);
+
+	        // Mostrar el precio con descuento
+	        System.out.println("Precio con descuento: " + precioConDescuento);
+	    }
+	}
+	

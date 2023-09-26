@@ -1,0 +1,10 @@
+package com.krakedev;
+
+public class TestRectangulo {
+
+	public static void main(String[] args) {
+		Rectangulo r1=new Rectangulo();
+
+	}
+
+}

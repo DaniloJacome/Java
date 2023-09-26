@@ -1,0 +1,5 @@
+package com.cmc.repaso.test;
+
+public class TestProducto {
+	Producto producto1=new Producto("");
+}

@@ -1,0 +1,15 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		int resultadoSuma;
+		int resultadoResta;
+		Calculadora calcu=new Calculadora();
+		resultadoSuma=calcu.sumar(5, 3);
+		resultadoResta=calcu.restar(10,3);
+		System.out.println("RESULTADO: "+resultadoSuma);
+		
+	}
+
+}

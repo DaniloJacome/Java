@@ -1,0 +1,27 @@
+package clearminds.cuentas.test;
+
+import clearminds.cuentas.Cuenta;
+
+public class TestCuenta {
+
+	public static void main(String[] args) {
+		Cuenta cuenta1 = new Cuenta("03476");
+		Cuenta cuenta2 = new Cuenta("03476", "C", 98);
+		Cuenta cuenta3 = new Cuenta("03476");
+		cuenta1.setSaldo(444);
+		cuenta2.setTipo("D");
+		cuenta3.setSaldo(567);
+		System.out.println("-----Valores Iniciales------");
+		cuenta1.imprimir();
+		cuenta2.imprimir();
+		cuenta3.imprimir();
+		System.out.println("-----Valores Modificados------");
+
+	}
+}
+
+adicionalmente en el metodo main 
+modificar el saldo de la cuenta1 a 444
+modificar el saldo de la cuenta3 a 567
+modificar el tipo de la cuenta2 a D
+imprimir los valores de la  cuenta1, cuenta2, cuenta3

@@ -1,0 +1,13 @@
+package com.krakedev;
+
+public class Mensajeria {
+	private void setSaludar() { //void si el metodo no retorna nada
+		System.out.println("Hola HUMANOS"); 
+	}
+	
+	void setSaludarAmigo(String nombre, String apellido){
+		System.out.println("Hola "+nombre+" "+apellido);
+	}
+	
+	
+}

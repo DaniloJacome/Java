@@ -1,0 +1,23 @@
+package com.cmc.repaso.test;
+import com.cmc.repaso.entidades.Item;
+
+public class TestItem {
+
+	public static void main(String[] args) {
+		Item item1 = new Item("CAMISETAS POLO");
+        item1.productosActuales = 20;
+
+        System.out.println("Valores iniciales:");
+        item1.imprimir();
+
+        // Prueba de venta
+        item1.vender(5);
+
+        // Prueba de devolución
+        item1.devolver(2);
+        System.out.println("******************************************");
+        System.out.println("Después de la venta y devolución:");
+        item1.imprimir();
+	}
+
+}
