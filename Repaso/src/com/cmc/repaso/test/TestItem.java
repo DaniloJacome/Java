@@ -24,6 +24,7 @@ public class TestItem {
         System.out.println("Después de las VENTAS y DEVOLUCIONES:");
         item1.imprimir();
         System.out.println("******************************************");
+        System.out.println("Después de las VENTAS y DEVOLUCIONES:");
         item2.imprimir();
 	}
 
